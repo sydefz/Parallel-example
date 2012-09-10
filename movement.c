@@ -9,6 +9,7 @@
 void *Worker(void *); 
 void InitializeGrids();
 
+
 typedef struct {
 	pthread_mutex_t		count_lock;		/* mutex semaphore for the barrier */
 	pthread_cond_t		ok_to_proceed;	/* condition variable for leaving */
